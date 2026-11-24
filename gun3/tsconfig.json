@@ -1,0 +1,16 @@
+{
+  // Node .ts dosyalarını tipleri silerek çalıştırır ama tip KONTROLÜ yapmaz.
+  // Kontrol için: npm run kontrol  (tsc bu ayarlarla sadece kontrol eder, dosya üretmez)
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "nodenext",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "skipLibCheck": true,
+    "lib": ["ES2023", "DOM"]
+  },
+  "include": ["*.ts", "moduller/*.ts"]
+}

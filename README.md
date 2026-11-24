@@ -8,7 +8,7 @@ Her gün bir klasör: konu anlatımlı örnek dosyalar, alıştırmalar ve çöz
 
 | Hafta | Odak | Durum |
 |---|---|---|
-| 1 | JS/TS temelleri, Vite ile React projesi, component / props / state | 🟡 Devam ediyor |
+| 1 | JS/TS temelleri, Vite ile React projesi, component / props / state | 🟡 Devam ediyor (Gün 3/7) |
 | 2 | `useEffect`, API'den veri çekme, ürün listesi ekranı | ⚪ |
 | 3 | Form, routing, sipariş oluşturma ekranı | ⚪ |
 | 4 | Hata yönetimi, deploy (Vercel / Netlify) | ⚪ |

@@ -1,0 +1,12 @@
+{
+  "name": "gun3",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gün 3: TypeScript temelleri",
+  "scripts": {
+    "kontrol": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
