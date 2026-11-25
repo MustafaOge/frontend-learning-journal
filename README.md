@@ -8,7 +8,7 @@ Her gün bir klasör: konu anlatımlı örnek dosyalar, alıştırmalar ve çöz
 
 | Hafta | Odak | Durum |
 |---|---|---|
-| 1 | JS/TS temelleri, Vite ile React projesi, component / props / state | 🟡 Devam ediyor (Gün 3/7) |
+| 1 | JS/TS temelleri, Vite ile React projesi, component / props / state | 🟡 Devam ediyor (Gün 4/7) |
 | 2 | `useEffect`, API'den veri çekme, ürün listesi ekranı | ⚪ |
 | 3 | Form, routing, sipariş oluşturma ekranı | ⚪ |
 | 4 | Hata yönetimi, deploy (Vercel / Netlify) | ⚪ |
@@ -20,6 +20,14 @@ Her gün bir klasör: konu anlatımlı örnek dosyalar, alıştırmalar ve çöz
 ```bash
 cd gun1
 node 01-let-const.js
+```
+
+Gün 4'ten itibaren klasörler birer Vite + React projesi:
+
+```bash
+cd gun4
+npm install
+npm run dev
 ```
 
 ## Kaynaklar

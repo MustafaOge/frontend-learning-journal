@@ -1,0 +1,98 @@
+/* Global stiller. Bugün CSS konumuz değil, hazır sınıfları kullan. */
+
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  --kenar: #d9d7de;
+  --soluk: #888;
+  --vurgu: #6d28d9;
+  --kirmizi: #dc2626;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h2 {
+  margin-top: 48px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--kenar);
+}
+
+/* Ders dosyalarının kullandığı sınıflar */
+.kart {
+  border: 1px solid var(--kenar);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.kutu {
+  border: 1px solid var(--kenar);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 6px 0;
+}
+.soluk {
+  color: var(--soluk);
+  font-size: 0.9em;
+}
+.vurgu {
+  color: var(--vurgu);
+  font-weight: 600;
+}
+.etiket {
+  margin-right: 8px;
+}
+.rozet {
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--vurgu);
+  color: white;
+  font-size: 0.8em;
+}
+
+/* Alıştırmanın kullandığı sınıflar */
+.urun-listesi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.urun-kart {
+  border: 1px solid var(--kenar);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.urun-kart h3 {
+  margin: 0 0 4px;
+}
+.urun-kart.tukendi {
+  opacity: 0.55;
+}
+.urun-fiyat {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.urun-etiket {
+  display: inline-block;
+  margin: 4px 4px 0 0;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--kenar) 50%, transparent);
+  font-size: 0.8em;
+}
+.etiket-tukendi {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  background: var(--kirmizi);
+  color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+}
