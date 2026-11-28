@@ -48,7 +48,7 @@ interface KitapKartiProps {
 function KitapKarti({ kitap, onOkudum, okundu }: KitapKartiProps) {
   return (
     <div className="kutu">
-      {kitap} <button onClick={() => { okundu = true, onOkudum(kitap) }} disabled={okundu}>Okudum</button>
+      {kitap} <button onClick={() => { onOkudum(kitap) }} disabled={okundu}>Okudum</button>
     </div>
   );
 }
@@ -72,7 +72,7 @@ export default function StateYukariTasima() {
       </p>
       {kitaplar.map((kitap) => (
         // onOkudum={okudum}: fonksiyonun kendisini veriyoruz, okudum() değil (02, ADIM 1)
-        <KitapKarti key={kitap} kitap={kitap} onOkudum={okudum} />
+        <KitapKarti key={kitap} kitap={kitap} onOkudum={okudum} okundu={okunanlar.includes(kitap)} />
       ))}
     </>
   );
